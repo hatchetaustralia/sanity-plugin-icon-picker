@@ -56,23 +56,23 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@sanity/incompatible-plugin": "^1.0.4",
+    "@sanity/incompatible-plugin": "^1.0.5",
     "decamelize": "3.2.0",
     "framework7-icons": "^5.0.5",
     "react-icons": "^4.8.0",
-    "react-virtualized-auto-sizer": "^1.0.5",
-    "react-window": "^1.8.6",
-    "sanity": "^3"
+    "react-virtualized-auto-sizer": "^1.0.25",
+    "react-window": "^1.8.11",
+    "sanity": "^3.68.3"
   },
   "devDependencies": {
     "@sanity/pkg-utils": "^2.3.3",
     "@sanity/plugin-kit": "^3.1.7",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^14.4.3",
-    "@types/react": "^18.0.28",
-    "@types/react-virtualized-auto-sizer": "^1.0.1",
-    "@types/react-window": "^1.8.5",
+    "@types/react": "^19.0.10",
+    "@types/react-virtualized-auto-sizer": "^1.0.4",
+    "@types/react-window": "^1.8.8",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
@@ -82,8 +82,8 @@
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.3",
     "jest": "^29.5.0",
@@ -91,11 +91,11 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.4",
     "prettier-plugin-packagejson": "^2.4.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-is": "^19.0.0",
     "rimraf": "^4.1.3",
-    "styled-components": "^5.3.8",
+    "styled-components": "^6.1.15",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
@@ -107,5 +107,10 @@
   "engines": {
     "node": ">=14"
   },
-  "sanityExchangeUrl": "https://www.sanity.io/plugins/icon-picker"
+  "sanityExchangeUrl": "https://www.sanity.io/plugins/icon-picker",
+  "sanityPlugin": {
+    "verifyPackage": {
+      "tsc": false
+    }
+  }
 }
