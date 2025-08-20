@@ -62,7 +62,7 @@
     "react-icons": "^4.8.0",
     "react-virtualized-auto-sizer": "^1.0.25",
     "react-window": "^1.8.11",
-    "sanity": "^3.68.3"
+    "sanity": "^4.0.0"
   },
   "devDependencies": {
     "@sanity/pkg-utils": "^2.3.3",
